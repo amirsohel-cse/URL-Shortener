@@ -6,21 +6,22 @@
    
    <img src="https://i.pinimg.com/originals/15/08/69/15086962d8818c3ac4e99868f0e55290.png">
   
-    <h3>Step to run this project </h3>
     
-    <ol>
     
-    <li> Download the Project </li>
-    <li> Edit .env file </li>
-    <li> Change Database settings in .env file </li>
+ <h3>Step to run this project </h3>
+   
+<ol>
+ <li> Download the Project </li>
+ <li> Edit .env file </li>
+ <li> Change Database settings in .env file </li>
     
-    <li> run:  composer update --no-scripts  </li>
+ <li> run:  composer update --no-scripts  </li>
     
  <li> run:  php artisan key:generate  </li>
  
  <li> run:  php artisan migrate  </li>
  <li> run:  php artisan serve </li>
- </ol>
+</ol>
  <h3> Enjoy ! </h3>
  
  

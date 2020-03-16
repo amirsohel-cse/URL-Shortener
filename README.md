@@ -8,17 +8,19 @@
   
     <h3>Step to run this project </h3>
     
-    <ol> Download the Project </ol>
-    <ol> Edit .env file </ol>
-    <ol> Change Database settings in .env file </ol>
+    <ol>
     
-    <ol> run:  composer update --no-scripts  </ol>
+    <li> Download the Project </li>
+    <li> Edit .env file </li>
+    <li> Change Database settings in .env file </li>
     
- <ol> run:  php artisan key:generate  </ol>
+    <li> run:  composer update --no-scripts  </li>
+    
+ <li> run:  php artisan key:generate  </li>
  
- <ol> run:  php artisan migrate  </ol>
- <ol> run:  php artisan serve </ol>
- 
+ <li> run:  php artisan migrate  </li>
+ <li> run:  php artisan serve </li>
+ </ol>
  <h3> Enjoy ! </h3>
  
  

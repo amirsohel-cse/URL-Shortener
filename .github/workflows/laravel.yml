@@ -1,0 +1,29 @@
+name: Laravel CI/CD
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  laravel-ci-cd:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: composer install --no-interaction --no-scripts --no-progress
+
+      - name: Run database migrations
+        run: php artisan migrate --force
+
+      - name: Clear configuration cache
+        run: php artisan config:clear
+
+      - name: Clear application cache
+        run: php artisan cache:clear
+
+      - name: Restart service
+        run: service scantek restart
